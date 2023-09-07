@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	background:no-repeat;
+}
+li{
+	list-style-type:none;
+	text-decoration:none;
+}
+input
+{
+	outline:none;
+    box-shadow: none;
+}
+div{
+	font-size:1rem;
+}
+button{
+	text-decoration:none;
+	gap:0.5rem;
+	font-size: 1rem;
+    line-height: 1.25rem;
+    text-shadow: none;
+    font-family: sans-serif;
+    touch-action: manipulation;
+}
+button > *{
+	pointer-events: none;
+}
+a{
+	text-decoration:none;
+	line-height:100%;
+	outline:none;
+	white-space: nowrap;
+	background: transparent;
+	text-align:center;
+	touch-action: manipulation;
+    cursor: pointer;
+}
+.ui-flex{
+	display:flex;
+}
+.ui-inline-flex{
+	display:inline-flex;
+}
+.ui-flex-row{
+	flex-direction:row;
+}
+.ui-flex-column{
+	flex-direction:column;
+}
+.ui-flex-full-center{
+	justify-content:center;
+	align-items:center;
+}
+.ui-grid{
+	display:grid;
+}

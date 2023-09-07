@@ -1,0 +1,124 @@
+.conatiner-btn-back-auth-reg{
+	align-items: center;
+	background-color: #fff;
+    height: 3rem;
+    -webkit-padding-end: 0.75rem;
+    padding-inline-end: 0.75rem;
+    position: relative;
+    z-index: 200;
+}
+.btn-back-auth-reg{
+	flex-shrink: 0;
+	background-color: transparent;
+    height: 3rem;
+    padding: 0 0.75rem;
+    border:0 solid;
+}
+.auth-reg-logo{
+    align-self:center;
+    flex-basis:50%;
+    justify-content:flex-end;
+}
+.h-auth-reg{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #242C33;
+}
+.rules{
+    padding-top:1rem;
+    padding-bottom:1.5rem;
+}
+.field-form-auth-reg{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.field-input{
+	padding:.75rem 0rem .75rem .75rem;
+	font-size:1.5rem;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #848f99;
+    border-radius: 0.5rem;
+    color: #242c33;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+}
+.btn-auth-reg{
+    border-style: solid;
+    border-width: 0;
+    flex-wrap: nowrap;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 2.25rem;
+	margin-top:0.5rem;
+	background-color: #0D5AB9;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    min-block-size: 3rem;
+    padding: 0.25rem 1rem;
+    width:100%;
+}
+#social-auth-provider-vk-web{
+    height:1.125rem;
+    width:1.125rem;
+    display:flex;
+    gap:0;
+    font-size: 0;
+    line-height: 0;
+    justify-content: center;
+    align-items:center;
+    border:none;
+    text-align: center;
+}
+.image-placeholder{
+    aspect-ratio: 1 / 1;
+    height: inherit;
+    width: inherit;
+}
+#ing{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.btn-visual{
+    background: transparent;
+    color: #505c66;
+    height: inherit;
+    padding: 0.5rem;
+    position: absolute;
+    border:0 solid;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 2.625rem;
+    right:0;
+}
+.increase{
+    border: 0 solid;
+    background: transparent;
+    block-size: 2.5rem;
+    inline-size: 2.5rem;
+    font-family: inherit;
+}
+.symbol-span{
+    background: #FFFFFF;
+    block-size: 2rem;
+    border-color: #848F99;
+    border-radius: 2500rem;
+    border-style: solid;
+    border-width: 1px;
+    inline-size: 2rem;
+}
+.uitk-icon{
+    block-size: 1rem;
+    box-sizing: border-box;
+    fill: #505C66;
+    inline-size: 1rem;
+}
+
+

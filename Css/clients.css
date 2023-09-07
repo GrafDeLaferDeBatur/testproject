@@ -1,0 +1,32 @@
+main{
+    height: 100vh;
+    padding-block-start: 5%;
+    padding-block-end: 12.5%;
+    /*background: red;*/
+    grid-template-rows: 8fr 1fr;
+}
+.clients-list{
+    background: white;
+    grid-template-rows: repeat(2, minmax(0,1fr));
+    grid-template-columns: repeat(5, minmax(0,1fr));
+    grid-auto-columns:minmax(0,1fr);
+    grid-auto-rows:minmax(0,1fr);
+    gap:15px;
+}
+.pagination{
+    /*background: red;*/
+    /*height: 10em;*/
+    width: 50%;
+    margin-top:20px;
+}
+.client{
+    width: 15em;
+    height: 15em;
+    border: black 1px solid;
+    box-sizing: border-box;
+    margin:1em;
+}
+
+.active{
+    background: darksalmon;
+}

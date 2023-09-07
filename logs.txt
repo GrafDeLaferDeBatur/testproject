@@ -1,0 +1,12 @@
+
+[2023-09-08 00:27:08] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:27:08] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:27:08] Проблема в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:27:12] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:27:12] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:31:00] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:31:00] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:31:00] Проблема в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: update
+[2023-09-08 00:33:16] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: create
+[2023-09-08 00:33:16] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: create
+[2023-09-08 00:38:56] Корректносработанный запрос в базу данных в файле C:\OSPanel\domains\localhost\Models\ClientsModel.phpКласса: Models\ClientsModel Функции: delete
