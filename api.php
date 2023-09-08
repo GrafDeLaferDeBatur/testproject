@@ -49,9 +49,9 @@ $query = "
                 LEFT JOIN Positions ON Clients.id_position = Positions.id
             LIMIT {$offset}, {$perPage}";
 
-// Выполните запрос к базе данных и получите результат
+// Выаолняем запрос к базе данных и получите результат
 $result = $db->query($query);
-// Преобразуйте результат в ассоциативный массив
+// Преобразуем результат в ассоциативный массив
 $clients = $result->fetch_all(MYSQLI_ASSOC);
 
 $response = [
@@ -59,7 +59,7 @@ $response = [
     'total_pages' => $total_pages
 ];
 
-// Отправьте массив клиентов как JSON-ответ
+// Отправляем массив клиентов как JSON-ответ
 header('Content-Type: application/json');
 echo json_encode($response);
 ?>

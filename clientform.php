@@ -22,9 +22,9 @@
                 JOIN Positions ON Clients.id_position = Positions.id
             WHERE Clients.id = '{$client}'";
         $result = $db->query($query);
-        // Проверьте, есть ли данные
+        // Проверяем наличие данных
         if ($result->num_rows > 0) {
-            // Получите данные как ассоциативный массив
+            // Поулчаем данные как ассоциативный массив
             $row = $result->fetch_assoc();
         }
         // Запрос для поиска телефонов клиента
